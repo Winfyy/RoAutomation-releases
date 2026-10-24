@@ -9,8 +9,11 @@ and move stale ones to "Archive" instead of letting them pile up.
 - Wants code delivered directly, with minimal back-and-forth; prefers Claude to act without asking for routine steps.
 - The games live on the user's PC, not in this repo: Obsidian vault `C:\Users\bbabo\Documents\Obsidian Vault`
   (Egg Heist = current focus; Geode Delve in `Roblox Game Prototype/`). RoAutomation app source: `C:\Users\bbabo\Documents\Codex\RoAutomation-dev`.
-- A team of ~40 helper sessions runs on the PC (bridge environments "YounosPC"). The lead is the session titled
-  "Geode Delve gamepad support" (session_01PCsqUd4pmfPRiXWPVsyRyu). The cloud session that set this file up acts as overseer.
+- A team of ~25 active helper sessions runs on the PC (bridge environments "YounosPC"). The lead is
+  "★ LEAD · Egg Heist + RoAutomation" (session_01PCsqUd4pmfPRiXWPVsyRyu, formerly "Geode Delve gamepad support").
+  The overseer is "★ OVERSEER · cloud" (session_01Ex8Lfq7aiRHzp81QB5k8Yp).
+- Session naming (2026-10-24): prefix = area. EH · Egg Heist, RA · RoAutomation, VAULT · Obsidian vault upkeep,
+  REVIEW · reviewers, GD · Geode Delve (paused). Keep new sessions on this scheme; archive finished one-off helpers.
 - The user wants blunt, honest assessments, not agreement.
 - HARD RULE for anything that controls the PC screen: never close, minimise, move or click anything on the SECOND
   monitor; all computer-use work happens on the FIRST monitor. If a needed window is on monitor 2, ask the user to move it.
