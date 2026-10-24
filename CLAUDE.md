@@ -48,6 +48,12 @@ Environment notes:
 - 2026-10-24: Xbox Game Bar capture/popups disabled via HKCU registry (GameDVR_Enabled, AppCaptureEnabled,
   ShowStartupPanel = 0). Controller-button setting and never-sleep-on-AC were already set, so sleep did not cause stalls.
 
+- 2026-10-24: G24M2020G is the user's SECOND monitor (they watch video there). Studio and all screen work go on
+  the first monitor.
+- 2026-10-24: User said "do it all for me", so the overseer decided: icon = v4; no Invite a friend in MVP; badge code stays
+  with ids 0 and badge creation waits for publishing; top shortlist sound per cue as placeholder (user can swap by ear);
+  working name "Egg Heist". Lead told to start Studio run 8 and fix the resume task.
+
 ## Game systems
 _(empty: fill in once game code is in the repo)_
 
@@ -55,7 +61,7 @@ _(empty: fill in once game code is in the repo)_
 - Lead: resume Egg Heist Studio run 8; fix the 30-minute resume task bug (it counts helpers' log entries as the lead's).
 - RoAutomation: fix wrong Gemini "used up until 28 Oct" detection (user's Gemini usage was 0% current / 25% weekly),
   confirm E6/E7 closed, finish promo videos + E13, then publish the release after v1.9.0 here.
-- Waiting on the user: approve PowerShell prompts on PC helpers; import the 13 models into Studio; create badges on Roblox;
-  pick icon (v4 vs 3 alternates); Invite a friend yes/no; phone test; public game name.
+- Waiting on the user: approve PowerShell prompts on PC helpers; upload models/assets to their Roblox account;
+  create badges once published; phone test; playtest after run 8; public game name.
 
 ## Archive
