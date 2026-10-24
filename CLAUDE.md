@@ -12,6 +12,8 @@ and move stale ones to "Archive" instead of letting them pile up.
 - A team of ~40 helper sessions runs on the PC (bridge environments "YounosPC"). The lead is the session titled
   "Geode Delve gamepad support" (session_01PCsqUd4pmfPRiXWPVsyRyu). The cloud session that set this file up acts as overseer.
 - The user wants blunt, honest assessments, not agreement.
+- HARD RULE for anything that controls the PC screen: never close, minimise, move or click anything on the SECOND
+  monitor; all computer-use work happens on the FIRST monitor. If a needed window is on monitor 2, ask the user to move it.
 
 ## Tooling (cloud environment)
 The environment setup script installs these at session start:
@@ -37,8 +39,11 @@ Environment notes:
 - 2026-10-24: Recommended focusing on Egg Heist; Geode Delve stays paused until Egg Heist ships (user's call).
 - 2026-10-24: Plugins reviewed: install CodeBurn (token usage dashboard) on the PC; skip Caveman, LLM Council, Karpathy
   CLAUDE.md, GSD, Claude Octopus; I Have ADHD optional.
-- 2026-10-24: Hourly "Helper watcher hourly" scheduled task (fresh cloud session, read-only) pushes a phone notification
-  when PC sessions are stuck. The overseer session is trusted-device-only, so scheduled check-ins into it fail.
+- 2026-10-24: "Helper watcher hourly" scheduled task created but DISABLED: tasks created from the overseer session get no
+  connectors, so it can't read sessions. User must add the Claude Code Remote connector in claude.ai scheduled tasks and
+  enable it. The overseer session is trusted-device-only, so scheduled check-ins into it fail.
+- 2026-10-24: Xbox Game Bar capture/popups disabled via HKCU registry (GameDVR_Enabled, AppCaptureEnabled,
+  ShowStartupPanel = 0). Controller-button setting and never-sleep-on-AC were already set, so sleep did not cause stalls.
 
 ## Game systems
 _(empty: fill in once game code is in the repo)_
